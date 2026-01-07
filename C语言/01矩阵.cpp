@@ -15,7 +15,7 @@ int main(void) {
 	}
 
 	for (int i = 0; i < row; i++) {
-		st, count = 0, sts = -1, ed = -1, max = 0;
+		count = 0, sts = -1, ed = -1, max = 0;
 		for (int j = 0; j < col + 1; j++) {
 			if (arr[i][j] == 1) {
 				count++;
